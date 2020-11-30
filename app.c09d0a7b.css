@@ -1,9 +1,31 @@
-h1 {
-  color: #090cfc;
+body {
+  font-family: "Noto Sans TC", sans-serif;
+  font-weight: 400;
+  background: #563eb3;
 }
 
-body {
-  background: darksalmon;
+.btn {
+  background-color: DodgerBlue;
+  /* Blue background */
+  border: none;
+  /* Remove borders */
+  color: white;
+  /* White text */
+  padding: 12px 16px;
+  /* Some padding */
+  font-size: 16px;
+  /* Set a font size */
+  cursor: pointer;
+  /* Mouse pointer on hover */
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+
+h1 {
+  color: #A4B3B6;
 }
 
 .fill {
