@@ -1,59 +1,57 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #44318D;
+  padding: 10px;
+  border-radius: 3px;
+}
+.navbar-container .navbar-logo {
+  font-weight: 600;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.bookTable-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+.bookTable-container .bookTable-wrapper {
+  display: flex;
+  width: 900px;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+.bookTable-container .bookTable-wrapper div {
+  flex-basis: 30%;
+}
+.bookTable-container .bookTable-table-details-wrapper {
+  display: flex;
+  width: 900px;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+.bookTable-container .bookTable-details-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 900px;
+}
+.bookTable-container .bookTable-details-wrapper .tableDetails-wrapper {
+  display: flex;
+}
+.bookTable-container .bookTable-details-wrapper .tableDetails-wrapper div, .bookTable-container .bookTable-details-wrapper .tableDetails-wrapper input {
+  flex-basis: 30%;
+}
 body {
   font-family: "Noto Sans TC", sans-serif;
   font-weight: 400;
-  background: #563eb3;
-}
-
-.btn {
-  background-color: DodgerBlue;
-  /* Blue background */
-  border: none;
-  /* Remove borders */
-  color: white;
-  /* White text */
-  padding: 12px 16px;
-  /* Some padding */
-  font-size: 16px;
-  /* Set a font size */
-  cursor: pointer;
-  /* Mouse pointer on hover */
-}
-
-/* Darker background on mouse-over */
-.btn:hover {
-  background-color: RoyalBlue;
 }
 
 h1 {
   color: #A4B3B6;
-}
-
-.fill {
-  background-image: url("https://source.unsplash.com/random/150x150");
-  position: relative;
-  height: 150px;
-  width: 150px;
-  top: 5px;
-  left: 5px;
-  cursor: pointer;
-}
-
-.hold {
-  border: solid 5px #ccc;
-}
-
-.empty {
-  display: inline-block;
-  height: 160px;
-  width: 160px;
-  margin: 10px;
-  border: solid 3px salmon;
-  background: white;
-}
-
-.hovered {
-  background: #f4f4f4;
-  border-style: dashed;
 }
 
 /*# sourceMappingURL=/app.c09d0a7b.css.map */
